@@ -107,9 +107,9 @@ builder.Services.AddScoped<AbsoluteUrlResolver>();
 builder.Services.AddSwaggerGen(options =>
 {
     // Información básica de la API
-    options.SwaggerDoc("v1", new OpenApiInfo 
-    { 
-        Title = "MotorcycleManager API", 
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "MotorcycleManager API",
         Version = "v1",
         Description = "API para la gestión de avistamientos de motocicletas",
         Contact = new OpenApiContact
@@ -176,4 +176,5 @@ app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.MapFallbackToFile("index.html");
 app.Run();
