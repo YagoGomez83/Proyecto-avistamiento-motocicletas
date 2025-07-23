@@ -1,0 +1,15 @@
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\bin\Debug\net8.0\MotorcycleManager.Application.deps.json
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\bin\Debug\net8.0\MotorcycleManager.Application.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\bin\Debug\net8.0\MotorcycleManager.Application.pdb
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\bin\Debug\net8.0\MotorcycleManager.Domain.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\bin\Debug\net8.0\MotorcycleManager.Domain.pdb
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.AssemblyInfo.cs
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\Motorcyc.485B0BFA.Up2Date
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\refint\MotorcycleManager.Application.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\MotorcycleManager.Application.pdb
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Application\obj\Debug\net8.0\ref\MotorcycleManager.Application.dll

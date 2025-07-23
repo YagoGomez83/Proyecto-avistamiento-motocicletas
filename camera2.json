@@ -1,0 +1,11 @@
+{
+  "name": "Cámara Norte Palermo",
+  "address": {
+    "street": "Av. Santa Fe",
+    "number": "3456",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "zipCode": "C1425AAT",
+    "country": "Argentina"
+  }
+}

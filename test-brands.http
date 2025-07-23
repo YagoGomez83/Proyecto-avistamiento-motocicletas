@@ -1,0 +1,41 @@
+### Test Brands API
+
+### Login first to get JWT token
+POST http://localhost:5167/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+### Get all brands (requires authentication)
+GET http://localhost:5167/api/brands
+Authorization: Bearer {{token}}
+
+### Create a new brand (requires authentication)
+POST http://localhost:5167/api/brands
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Honda"
+}
+
+### Create another brand
+POST http://localhost:5167/api/brands
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Yamaha"
+}
+
+### Create another brand
+POST http://localhost:5167/api/brands
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Kawasaki"
+}

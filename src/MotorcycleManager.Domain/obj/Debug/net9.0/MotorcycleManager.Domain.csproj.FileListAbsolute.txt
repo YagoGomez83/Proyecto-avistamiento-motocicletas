@@ -1,0 +1,11 @@
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\bin\Debug\net9.0\MotorcycleManager.Domain.deps.json
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\bin\Debug\net9.0\MotorcycleManager.Domain.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\bin\Debug\net9.0\MotorcycleManager.Domain.pdb
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\MotorcycleManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\MotorcycleManager.Domain.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\MotorcycleManager.Domain.AssemblyInfo.cs
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\MotorcycleManager.Domain.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\MotorcycleManager.Domain.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\refint\MotorcycleManager.Domain.dll
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\MotorcycleManager.Domain.pdb
+D:\Trabajo\Proyectos\MotorcycleManagerV2\src\MotorcycleManager.Domain\obj\Debug\net9.0\ref\MotorcycleManager.Domain.dll

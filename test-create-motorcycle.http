@@ -1,0 +1,27 @@
+POST http://localhost:5167/api/motorcycles
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInVuaXF1ZV9uYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwianRpIjoiNzI3ZGFjOTYtNGNiNy00ZjAwLWExZTUtNzgzMGFiMzA1ZmViIiwiaWF0IjoxNzM3MDkwNzQ2LCJuYmYiOjE3MzcwOTA3NDYsImV4cCI6MTczNzA5NzQwNiwiaXNzIjoiTW90b3JjeWNsZU1hbmFnZXJBUEkiLCJhdWQiOiJNb3RvcmN5Y2xlTWFuYWdlckNsaWVudCJ9.5VmyKFhK_pQFYOCQUQPKbgIqjGdMOJTfJmKJFXzG9-U
+
+{
+  "brandId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "licensePlate": "ABC123",
+  "model": "Test Model",
+  "year": 2024,
+  "displacement": 250,
+  "color": "Red"
+}
+
+###
+
+POST http://localhost:5167/api/motorcycles
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsInVuaXF1ZV9uYW1lIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwianRpIjoiNzI3ZGFjOTYtNGNiNy00ZjAwLWExZTUtNzgzMGFiMzA1ZmViIiwiaWF0IjoxNzM3MDkwNzQ2LCJuYmYiOjE3MzcwOTA3NDYsImV4cCI6MTczNzA5NzQwNiwiaXNzIjoiTW90b3JjeWNsZU1hbmFnZXJBUEkiLCJhdWQiOiJNb3RvcmN5Y2xlTWFuYWdlckNsaWVudCJ9.5VmyKFhK_pQFYOCQUQPKbgIqjGdMOJTfJmKJFXzG9-U
+
+{
+  "brandId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "licensePlate": "DEF456",
+  "model": "Test Model 2",
+  "year": 2024,
+  "displacement": "750",
+  "color": "Blue"
+}

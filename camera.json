@@ -1,0 +1,11 @@
+{
+  "name": "Cámara Principal Centro",
+  "address": {
+    "street": "Av. Libertador",
+    "number": "1234",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "zipCode": "C1425AAS",
+    "country": "Argentina"
+  }
+}

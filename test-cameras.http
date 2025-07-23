@@ -1,0 +1,50 @@
+### Variables de configuración
+@baseUrl = http://localhost:5167
+@token = 
+
+### 1. Login para obtener token
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@motorcyclemanager.com",
+  "password": "Admin123!"
+}
+
+### 2. Obtener todas las cámaras (requiere autenticación)
+GET {{baseUrl}}/api/cameras
+Authorization: Bearer {{token}}
+
+### 3. Crear una nueva cámara (requiere autenticación)
+POST {{baseUrl}}/api/cameras
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Cámara Principal Centro",
+  "location": {
+    "street": "Av. Libertador",
+    "number": "1234",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "zipCode": "C1425AAS",
+    "country": "Argentina"
+  }
+}
+
+### 4. Crear otra cámara
+POST {{baseUrl}}/api/cameras
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Cámara Norte Palermo",
+  "location": {
+    "street": "Av. Santa Fe",
+    "number": "3456",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "zipCode": "C1425AAT",
+    "country": "Argentina"
+  }
+}

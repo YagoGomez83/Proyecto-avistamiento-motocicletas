@@ -1,0 +1,42 @@
+### Test actualizar avistamiento con nueva imagen
+PUT http://localhost:5167/api/sightings/{{sightingId}}
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="cameraId"
+
+{{cameraId}}
+--boundary
+Content-Disposition: form-data; name="sightingTimeUtc"
+
+2024-07-16T10:30:00Z
+--boundary
+Content-Disposition: form-data; name="notes"
+
+Avistamiento actualizado con nueva imagen - Prueba
+--boundary
+Content-Disposition: form-data; name="newImageFile"; filename="test-image.jpg"
+Content-Type: image/jpeg
+
+< ./test-image.jpg
+--boundary--
+
+### Test actualizar avistamiento sin nueva imagen
+PUT http://localhost:5167/api/sightings/{{sightingId}}
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="cameraId"
+
+{{cameraId}}
+--boundary
+Content-Disposition: form-data; name="sightingTimeUtc"
+
+2024-07-16T11:00:00Z
+--boundary
+Content-Disposition: form-data; name="notes"
+
+Avistamiento actualizado sin cambiar imagen
+--boundary--

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hEMKOAoMna/mdS5A+/v4U9rCGTtQH+MyKpIEZ+yaJAY=",
+  "Source": "MotorcycleManager.WebAPI",
+  "BasePath": "_content/MotorcycleManager.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

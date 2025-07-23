@@ -1,0 +1,61 @@
+### Test Sighting Reports Endpoints
+### Estos son los nuevos endpoints de reportes para avistamientos
+
+# Variables
+@baseUrl = https://localhost:7002/api
+@token = YOUR_JWT_TOKEN_HERE
+
+### 1. Get Sighting Counts by Camera
+GET {{baseUrl}}/sightings/reports/by-camera
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### 2. Get Sighting Counts by Brand
+GET {{baseUrl}}/sightings/reports/by-brand
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### 3. Get Sighting Counts by Engine Displacement
+GET {{baseUrl}}/sightings/reports/by-engine-displacement
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### Respuestas esperadas:
+
+# Response example for by-camera:
+# [
+#   {
+#     "cameraName": "Cámara Principal",
+#     "count": 15
+#   },
+#   {
+#     "cameraName": "Cámara Secundaria", 
+#     "count": 8
+#   }
+# ]
+
+# Response example for by-brand:
+# [
+#   {
+#     "brandName": "Honda",
+#     "count": 12
+#   },
+#   {
+#     "brandName": "Yamaha",
+#     "count": 7
+#   }
+# ]
+
+# Response example for by-engine-displacement:
+# [
+#   {
+#     "engineDisplacement": 50,
+#     "count": 3,
+#     "displacementDisplay": "50cc"
+#   },
+#   {
+#     "engineDisplacement": 125,
+#     "count": 8,
+#     "displacementDisplay": "125cc"
+#   }
+# ]

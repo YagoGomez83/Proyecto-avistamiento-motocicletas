@@ -1,0 +1,43 @@
+### Test Brand CRUD endpoints
+
+### 1. Get all brands
+GET http://localhost:5167/api/brands
+Authorization: Bearer {{authToken}}
+
+### 2. Create a new brand
+POST http://localhost:5167/api/brands
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "name": "Test Brand"
+}
+
+### 3. Update a brand (replace {id} with actual brand ID)
+PUT http://localhost:5167/api/brands/{id}
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "id": "{id}",
+  "name": "Updated Test Brand"
+}
+
+### 4. Delete a brand (replace {id} with actual brand ID)
+DELETE http://localhost:5167/api/brands/{id}
+Authorization: Bearer {{authToken}}
+
+### Sample with real data (example)
+### Replace the GUIDs with actual brand IDs from your database
+
+# PUT http://localhost:5167/api/brands/550e8400-e29b-41d4-a716-446655440000
+# Authorization: Bearer {{authToken}}
+# Content-Type: application/json
+# 
+# {
+#   "id": "550e8400-e29b-41d4-a716-446655440000",
+#   "name": "Honda Updated"
+# }
+
+# DELETE http://localhost:5167/api/brands/550e8400-e29b-41d4-a716-446655440000
+# Authorization: Bearer {{authToken}}

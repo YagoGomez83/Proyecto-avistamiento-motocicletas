@@ -1,0 +1,39 @@
+### Test crear avistamiento con imagen
+
+POST http://localhost:5167/api/sightings
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="cameraId"
+
+fa74b6d2-d6af-4b37-8b71-abc123456789
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="motorcycleId"
+
+fa74b6d2-d6af-4b37-8b71-def123456789
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="sightingTimeUtc"
+
+2025-07-15T14:30:00Z
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="notes"
+
+Avistamiento de prueba
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="imageFile"; filename="test.jpg"
+Content-Type: image/jpeg
+
+[Binary data would go here]
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Test obtener avistamientos recientes
+
+GET http://localhost:5167/api/sightings/recent?limit=5
+
+### Test obtener cámaras
+
+GET http://localhost:5167/api/cameras
+
+### Test obtener marcas
+
+GET http://localhost:5167/api/brands

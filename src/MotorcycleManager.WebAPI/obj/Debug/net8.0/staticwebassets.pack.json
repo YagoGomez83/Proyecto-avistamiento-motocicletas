@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\248d54f5-85cc-4711-962d-4358db6ef253.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\248d54f5-85cc-4711-962d-4358db6ef253.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\3dbfbff1-86dd-467a-9f2d-ed5958fcaf06.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\3dbfbff1-86dd-467a-9f2d-ed5958fcaf06.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\69fac4ce-3143-490f-985e-06b9006d32d8.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\69fac4ce-3143-490f-985e-06b9006d32d8.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\75c23a61-a715-4819-9c0c-f1a05e7b0207.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\75c23a61-a715-4819-9c0c-f1a05e7b0207.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\76643b1f-6f59-4137-b205-eaba49073fcd.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\76643b1f-6f59-4137-b205-eaba49073fcd.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\b9ff722d-0b12-4b4e-a455-641606fb301f.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\b9ff722d-0b12-4b4e-a455-641606fb301f.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\cd8b04dc-05f6-4f10-b534-b7d430869420.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\cd8b04dc-05f6-4f10-b534-b7d430869420.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\d0320f22-1c4f-47b9-8597-48b86a50d0bc.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\d0320f22-1c4f-47b9-8597-48b86a50d0bc.jpeg"
+    },
+    {
+      "Id": "D:\\Trabajo\\Proyectos\\MotorcycleManagerV2\\src\\MotorcycleManager.WebAPI\\wwwroot\\images\\sightings\\eadc963b-b633-4415-bffc-3d29dca0d2a1.jpeg",
+      "PackagePath": "staticwebassets\\images\\sightings\\eadc963b-b633-4415-bffc-3d29dca0d2a1.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MotorcycleManager.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MotorcycleManager.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MotorcycleManager.WebAPI.props",
+      "PackagePath": "build\\MotorcycleManager.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MotorcycleManager.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\MotorcycleManager.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MotorcycleManager.WebAPI.props",
+      "PackagePath": "buildTransitive\\MotorcycleManager.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

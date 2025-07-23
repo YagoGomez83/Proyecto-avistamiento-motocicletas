@@ -1,0 +1,11 @@
+{
+  "name": "Cámara Sur Recoleta",
+  "location": {
+    "street": "Av. Córdoba",
+    "number": "789",
+    "city": "Buenos Aires",
+    "state": "CABA",
+    "zipCode": "C1425AAU",
+    "country": "Argentina"
+  }
+}
